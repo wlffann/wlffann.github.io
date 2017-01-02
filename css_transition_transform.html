@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Transition and Transform</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+  
+    <header id='navbar'>
+      <div class="title"><a href="index.html">Make++</a></div>
+      <div class="details">
+        <a href='http://anniewolff.link/about.php'>About</a>
+      </div>
+      <div class="details">
+        <a href='http://anniewolff.link/'>Portfolio</a>
+      </div>
+    </header>
+
+    <article class="post">
+      <h1>CSS Transition & Transform</h1>
+      <h1>Or, How To Make Any Webpage More Awesome</h1>
+      <p>If you are a new web developer like me, you're always looking for ways to make your page more interesting without having to wrestle with CSS for hours. If your project has an extensive back-end, it can be so frustrating to waste time pushing div elements around the browser just to make your page readable.</p>
+      <br>
+      <p>Have no fear! Even you can make a boring Bootstrap site exciting by adding two simple properties: <code>transition</code> and <code>transform</code>. These two elements will give you control to move or change any selector or pseudo-selector on your page. Let’s take a closer look at each.</p>
+      <br>
+      <h2>transition</h2>
+      <p>Transition is a great place to start. The way that we define our transitions will have the greatest effect on the look and feel of our interactions.</p>
+      <br>
+      <p><code>transition</code> is actually a shorthand property for these four other properties:
+        <ul>
+          <li><code>transition-delay</code>: controls any pause time before the transition begins. Default value of 0s.</li>
+          <li><code>transition-duration</code>: sets the time that the transition takes to execute. This duration begins after the delay time passes. Default value of 0s.</li>
+          <li><code>transition-property</code>: indicates the properties in the pseudo-selector to apply the transition to. Default value of all.</li>
+          <li><code>transition-timing-function</code>: provides a mathematical function to change the speed of the transition at different points int the duration. Default value of ease.</li>
+        </ul>
+      <br>
+      <p>All of these properties can be included in the shorthand <code>transition</code> property in the format below:</p>
+        <code class="snippet">
+          transtition: property duration timing-function delay;
+        </code>
+      </p>
+      <br>
+
+      <h2>transform</h2>
+      <p>Transformations let you define the actual change you want to see in the element. This means you can make a simple div grow, shrink, move left, or spin 360deg depending on the interaction that you want to have with your user.</p>
+      <br>
+      <p>Some fun options include:
+        <ul>
+          <li><code>scale()</code> changes the dimensions of the element by multiplying the size by the given value. Takes an integer value.</li>
+          <li><code>skewY()</code> stretches the outer edges of the element vertically or horizontally to create a parallelogram. Takes a degree value.</li>
+          <li><code>translate()</code> moves the element vertically or horizontally </li>
+          <li><code>rotate()</code> spins the element clockwise. Takes a degree value.</li>
+        </ul>
+      </p>
+      <br>
+      <p>These functions are nested in the <code>transform</code> property inside of the element's pseudo-selector:</p>
+        <code class="snippet">transform: scale(1.5);</code>
+      <br>
+      <p>The <code>transform-origin</code> property gives you control over the point at which the transformation centers around. It defaults to the center of the element.</p>
+      <br>
+      <h4>Get out there and start making awesome pages!</h4>
+    </article>
+
+  </body>
+
+</html>

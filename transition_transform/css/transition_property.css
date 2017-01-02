@@ -1,0 +1,32 @@
+.container {
+  margin: 5% auto;
+}
+
+.row {  
+  width: 100%;
+}
+
+.example {
+  display: inline-block;
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  background-color: rebeccapurple;
+}
+
+.example.one {
+  transition: 1s border-radius;
+}
+
+.example.two {
+  transition: 1s border-radius;
+}
+
+.example.three {
+  transition: 1s border-radius;
+}
+
+.example:hover {
+  background-color: orchid;
+  border-radius: 20%;
+}

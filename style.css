@@ -4,6 +4,13 @@ body {
   font-family: 'Lato', 'Helvetica';
 }
 
+.snippet {
+  margin-left: 10px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
 /*-- NAVBAR --*/
 
 #navbar {
