@@ -1,3 +1,3 @@
-#Personal Blog Website
+# Annie Wolff Resume
 
-Blog about tecnhical topics built for Module 2 prework
+Thank you for visiting. Please see my resume [here](https://wlffann.github.io).
